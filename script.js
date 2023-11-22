@@ -45,11 +45,11 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 
   /* Check if all numbers are divisible by 5. Cache the result in a variable.   */
 
-  const is5Divisible = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) >= 1;
+  const is5Divisible = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0;
   console.log("All numbers are divisible by 5: " + is5Divisible);
   // Check if the first number is larger than the last.
  const isFirstLarger = n1 > n4;
- console.log("Is the first number larger than the last number: ")
+ console.log("Is the first number larger than the last number: " + isFirstLarger);
   /* Accomplish the following arithmetic chain:
 Subtract the first number from the second number.
 Multiply the result by the third number.
