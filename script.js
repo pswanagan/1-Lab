@@ -55,3 +55,7 @@ Subtract the first number from the second number.
 Multiply the result by the third number.
 Find the remainder of dividing the result by the fourth number. */
 
+const endingAnswer = (n2 - n1) * n3 / n4;
+
+console.log("The answer to the arithmetic chain is: " + endingAnswer);
+
