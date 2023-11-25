@@ -105,3 +105,5 @@ console.log(`Will the fuel budget cover the trip: ${fuel75}.`);
 
 const time75 = 1500 / 75;
 console.log(`It will take ${time75} hours to complete trip at 55mph.`)
+
+console.log(`It makes the most sense to travel an average of 60mph.`)
