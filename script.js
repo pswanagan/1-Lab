@@ -95,4 +95,5 @@ const fuel60 = (miles60 * 3) < 175.
 console.log(`Will the fuel budget cover the trip: ${fuel60}.`); 
 
 const time60 = 1500 / 60;
-console.log(`It will take ${time55} hours to complete trip at 55mph.`)
+console.log(`It will take ${time60} hours to complete trip at 55mph.`)
+
