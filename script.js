@@ -97,3 +97,11 @@ console.log(`Will the fuel budget cover the trip: ${fuel60}.`);
 const time60 = 1500 / 60;
 console.log(`It will take ${time60} hours to complete trip at 55mph.`)
 
+const miles75 = 1500 / 23;
+console.log(`At 55 miles per hour it will take ${miles75} gallons of gas to complete the trip.`);
+
+const fuel75 = (miles75 * 3) < 175.
+console.log(`Will the fuel budget cover the trip: ${fuel75}.`); 
+
+const time75 = 1500 / 75;
+console.log(`It will take ${time75} hours to complete trip at 55mph.`)
